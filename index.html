@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Art Search</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+</head>
+
+<body>
+  <section class="hero is-primary is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title has-text-centered">
+          Look at some art
+        </h1>
+        <h2 class="subtitle has-text-centered">
+          Using <a href="https://www.metmuseum.org/" alt="The Metropolitan Museum of Art" target="_blank">the Metropolitan Museum of Art</a>'s open access API
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="level-item has-text-centered">
+      <div class="level">
+        <div class="field">
+          <label class="label">Type in some keywords (like fuschia or abstract or Egyptian)</label>
+          <div class="control">
+            <input class="input" type="text" id="search" placeholder="Search for art or keywords">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="level-item has-text-centered">
+      <div class="field is-grouped mt-4">
+        <div class="control">
+          <button class="button is-link">Submit</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="result-heading"></div>
+
+    <div id="artworks"></div>
+
+    <div id="artwork"></div>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
