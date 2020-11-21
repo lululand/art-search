@@ -1,0 +1,17 @@
+{
+  "name": "art-cards-js",
+  "version": "1.0.0",
+  "description": "App using open access Met API",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "art",
+    "api"
+  ],
+  "author": "Kirsten Lund",
+  "license": "ISC",
+  "dependencies": {}
+}
